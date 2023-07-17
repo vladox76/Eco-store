@@ -1,0 +1,92 @@
+.intro-container {
+  flex-direction: row;
+  justify-content: space-between;
+}
+.intro-container__info {
+  display: block;
+}
+.intro-container__img {
+  margin-top: 5vh;
+  order: 2;
+}
+.intro-container__info {
+  margin-bottom: 100px;
+}
+.intro-container__titulo {
+  font-size: 3.5vw;
+}
+.intro-container__parrafo {
+  font-size: 1.8rem;
+  margin-bottom: 60px;
+}
+
+.section-salud__titulo, .section-hogar__titulo {
+  margin-left: 35px;
+  font-size: 2.1rem;
+}
+
+.section-hogar__items-container, .section-salud__items-container {
+  flex-wrap: wrap;
+  overflow: hidden;
+  justify-content: space-between;
+}
+.section-hogar__items-container__item, .section-salud__items-container__item {
+  width: 23%;
+  min-width: 230px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.section-hogar__items-container__item img, .section-salud__items-container__item img {
+  width: 70%;
+  height: 55%;
+}
+.section-hogar__items-container__item div, .section-salud__items-container__item div {
+  width: 70%;
+}
+.section-hogar__items-container__item div h3, .section-salud__items-container__item div h3 {
+  font-size: 1.6rem;
+}
+.section-hogar__items-container__item div p, .section-salud__items-container__item div p {
+  font-size: 1rem;
+}
+.section-hogar__items-container :nth-child(3n), .section-salud__items-container :nth-child(3n) {
+  margin-left: 0;
+}
+
+.section-nosotros h2 {
+  margin-left: 70px;
+}
+.section-nosotros__items {
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-size: 1.6rem;
+}
+
+.section-galeria h2 {
+  margin-left: 60px;
+}
+.section-galeria__items {
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.section-mapa h2 {
+  margin-left: 60px;
+}
+.section-mapa__info {
+  margin-left: 60px;
+}
+.section-mapa__info h3 {
+  font-size: 1.8rem;
+}
+.section-mapa__info p {
+  font-size: 1.3rem;
+}
+
+.section-mapa__img img {
+  content: url(../assets/images/mapa-desktop.png);
+  max-width: 90%;
+  max-height: 300px;
+}

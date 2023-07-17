@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/mobile.css" />
+    <link rel="stylesheet" media="(min-width:768px)" href="../css/tablet.css" />
+    <link
+      rel="stylesheet"
+      media="(min-width:1024px)"
+      href="../css/desktop.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Eco-store</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <h1 class="nav__titulo">Eco-store</h1>
+        <div class="icon-container">
+          <a class="nav__icon" href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 51 51"
+              fill="none"
+            >
+              <path
+                d="M10.8821 37.8335C15.3413 35.3131 20.3779 33.9922 25.5 34C30.8125 34 35.7999 35.3919 40.1179 37.8335M31.875 21.25C31.875 22.9408 31.2034 24.5623 30.0078 25.7578C28.8123 26.9534 27.1908 27.625 25.5 27.625C23.8092 27.625 22.1877 26.9534 20.9922 25.7578C19.7966 24.5623 19.125 22.9408 19.125 21.25C19.125 19.5592 19.7966 17.9377 20.9922 16.7422C22.1877 15.5466 23.8092 14.875 25.5 14.875C27.1908 14.875 28.8123 15.5466 30.0078 16.7422C31.2034 17.9377 31.875 19.5592 31.875 21.25ZM44.625 25.5C44.625 28.0115 44.1303 30.4985 43.1692 32.8188C42.2081 35.1392 40.7993 37.2475 39.0234 39.0234C37.2475 40.7993 35.1392 42.2081 32.8188 43.1692C30.4985 44.1303 28.0115 44.625 25.5 44.625C22.9885 44.625 20.5015 44.1303 18.1812 43.1692C15.8608 42.2081 13.7525 40.7993 11.9766 39.0234C10.2007 37.2475 8.79192 35.1392 7.8308 32.8188C6.86968 30.4985 6.375 28.0115 6.375 25.5C6.375 20.4277 8.38995 15.5632 11.9766 11.9766C15.5632 8.38995 20.4277 6.375 25.5 6.375C30.5723 6.375 35.4368 8.38995 39.0234 11.9766C42.61 15.5632 44.625 20.4277 44.625 25.5Z"
+                stroke="#7C6A0A"
+                stroke-width="4.25"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              /></svg
+          ></a>
+
+          <a class="nav__icon" href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="33"
+              height="30"
+              viewBox="0 0 49 49"
+              fill="none"
+            >
+              <path
+                d="M6.82437 15.8799C7.28609 14.7652 7.96285 13.7524 8.816 12.8993C9.66914 12.0461 10.682 11.3694 11.7966 10.9077C12.9113 10.4459 14.1061 10.2083 15.3126 10.2083C16.5191 10.2083 17.7138 10.4459 18.8285 10.9077C19.9432 11.3694 20.956 12.0461 21.8092 12.8993L24.5001 15.5902L27.191 12.8993C28.914 11.1763 31.2509 10.2083 33.6876 10.2083C36.1243 10.2083 38.4612 11.1763 40.1842 12.8993C41.9072 14.6223 42.8751 16.9592 42.8751 19.3959C42.8751 21.8326 41.9072 24.1694 40.1842 25.8924L24.5001 41.5765L8.816 25.8924C7.96285 25.0393 7.28609 24.0265 6.82437 22.9118C6.36265 21.7971 6.125 20.6024 6.125 19.3959C6.125 18.1893 6.36265 16.9946 6.82437 15.8799Z"
+                stroke="#7C6A0A"
+                stroke-width="4.08333"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+
+          <a class="nav__icon" href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 45 45"
+              fill="none"
+            >
+              <path
+                d="M5.5625 5.8125H9.27083L10.0125 9.52083M10.0125 9.52083H38.9375L31.5208 24.3542H12.9792M10.0125 9.52083L12.9792 24.3542M12.9792 24.3542L8.72756 28.6058C7.55944 29.7739 8.3864 31.7708 10.0385 31.7708H31.5208M31.5208 31.7708C30.5373 31.7708 29.5941 32.1615 28.8986 32.857C28.2032 33.5524 27.8125 34.4957 27.8125 35.4792C27.8125 36.4627 28.2032 37.4059 28.8986 38.1014C29.5941 38.7968 30.5373 39.1875 31.5208 39.1875C32.5043 39.1875 33.4476 38.7968 34.143 38.1014C34.8385 37.4059 35.2292 36.4627 35.2292 35.4792C35.2292 34.4957 34.8385 33.5524 34.143 32.857C33.4476 32.1615 32.5043 31.7708 31.5208 31.7708ZM16.6875 35.4792C16.6875 36.4627 16.2968 37.4059 15.6014 38.1014C14.9059 38.7968 13.9627 39.1875 12.9792 39.1875C11.9957 39.1875 11.0524 38.7968 10.357 38.1014C9.66153 37.4059 9.27083 36.4627 9.27083 35.4792C9.27083 34.4957 9.66153 33.5524 10.357 32.857C11.0524 32.1615 11.9957 31.7708 12.9792 31.7708C13.9627 31.7708 14.9059 32.1615 15.6014 32.857C16.2968 33.5524 16.6875 34.4957 16.6875 35.4792Z"
+                stroke="#7C6A0A"
+                stroke-width="3.70833"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+          <a class="nav__menu" href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 32 32"
+              fill="none"
+            >
+              <path
+                d="M5.33325 24H26.6666M5.33325 8H26.6666H5.33325ZM5.33325 16H26.6666H5.33325Z"
+                stroke="#7C6A0A"
+                stroke-width="2.66667"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+        </div>
+      </nav>
+      <div class="intro-container">
+        <img
+          class="intro-container__img"
+          src="../assets/images/toalla-header.jpg"
+        />
+        <div class="intro-container__info">
+          <h1 class="intro-container__titulo">Impacto Ecológico</h1>
+          <p class="intro-container__parrafo">
+            Debido al impacto ambiental siendo las acciones humanas las que
+            modifican el ambiente, Eco-store se compromete a elaborar sus
+            productos de manera artesanal y con materiales que favorecen al
+            cuidado del medio ambiente.
+          </p>
+          <button class="intro-container__boton">Conoce más</button>
+        </div>
+      </div>
+    </header>
+    <section class="section-salud">
+      <h2 class="section-salud__titulo">Cuidado de la salud</h2>
+      <div class="section-salud__items-container">
+        <div class="section-salud__items-container__item">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 49 49"
+            fill="none"
+          >
+            <path
+              d="M6.82437 15.8799C7.28609 14.7652 7.96285 13.7524 8.816 12.8993C9.66914 12.0461 10.682 11.3694 11.7966 10.9077C12.9113 10.4459 14.1061 10.2083 15.3126 10.2083C16.5191 10.2083 17.7138 10.4459 18.8285 10.9077C19.9432 11.3694 20.956 12.0461 21.8092 12.8993L24.5001 15.5902L27.191 12.8993C28.914 11.1763 31.2509 10.2083 33.6876 10.2083C36.1243 10.2083 38.4612 11.1763 40.1842 12.8993C41.9072 14.6223 42.8751 16.9592 42.8751 19.3959C42.8751 21.8326 41.9072 24.1694 40.1842 25.8924L24.5001 41.5765L8.816 25.8924C7.96285 25.0393 7.28609 24.0265 6.82437 22.9118C6.36265 21.7971 6.125 20.6024 6.125 19.3959C6.125 18.1893 6.36265 16.9946 6.82437 15.8799Z"
+              stroke="#7C6A0A"
+              stroke-width="4.08333"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <img src="../assets/images/cepillo-cuidado-item.jpg" />
+          <div>
+            <h3>Cepillo de bambú</h3>
+            <p>Paquete de dos unidades hecho 100% de materiales ecológicos</p>
+          </div>
+        </div>
+        <div class="section-salud__items-container__item">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 49 49"
+            fill="none"
+          >
+            <path
+              d="M6.82437 15.8799C7.28609 14.7652 7.96285 13.7524 8.816 12.8993C9.66914 12.0461 10.682 11.3694 11.7966 10.9077C12.9113 10.4459 14.1061 10.2083 15.3126 10.2083C16.5191 10.2083 17.7138 10.4459 18.8285 10.9077C19.9432 11.3694 20.956 12.0461 21.8092 12.8993L24.5001 15.5902L27.191 12.8993C28.914 11.1763 31.2509 10.2083 33.6876 10.2083C36.1243 10.2083 38.4612 11.1763 40.1842 12.8993C41.9072 14.6223 42.8751 16.9592 42.8751 19.3959C42.8751 21.8326 41.9072 24.1694 40.1842 25.8924L24.5001 41.5765L8.816 25.8924C7.96285 25.0393 7.28609 24.0265 6.82437 22.9118C6.36265 21.7971 6.125 20.6024 6.125 19.3959C6.125 18.1893 6.36265 16.9946 6.82437 15.8799Z"
+              stroke="#7C6A0A"
+              stroke-width="4.08333"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <img src="../assets/images/crema-cuidado-item.jpg" />
+          <div>
+            <h3>Crema para manos</h3>
+            <p>Crema hidratante con eucalitpo, ayuda al cuidado de la piel</p>
+          </div>
+        </div>
+        <div class="section-salud__items-container__item">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 49 49"
+            fill="none"
+          >
+            <path
+              d="M6.82437 15.8799C7.28609 14.7652 7.96285 13.7524 8.816 12.8993C9.66914 12.0461 10.682 11.3694 11.7966 10.9077C12.9113 10.4459 14.1061 10.2083 15.3126 10.2083C16.5191 10.2083 17.7138 10.4459 18.8285 10.9077C19.9432 11.3694 20.956 12.0461 21.8092 12.8993L24.5001 15.5902L27.191 12.8993C28.914 11.1763 31.2509 10.2083 33.6876 10.2083C36.1243 10.2083 38.4612 11.1763 40.1842 12.8993C41.9072 14.6223 42.8751 16.9592 42.8751 19.3959C42.8751 21.8326 41.9072 24.1694 40.1842 25.8924L24.5001 41.5765L8.816 25.8924C7.96285 25.0393 7.28609 24.0265 6.82437 22.9118C6.36265 21.7971 6.125 20.6024 6.125 19.3959C6.125 18.1893 6.36265 16.9946 6.82437 15.8799Z"
+              stroke="#7C6A0A"
+              stroke-width="4.08333"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <img src="../assets/images/serum-cuidado-item.jpg" />
+          <div>
+            <h3>Serum hidratante</h3>
+            <p>
+              Sérum hecho a base de extractos naturales y ácido hialurónico.
+            </p>
+          </div>
+        </div>
+        <div class="section-salud__items-container__item">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 49 49"
+            fill="none"
+          >
+            <path
+              d="M6.82437 15.8799C7.28609 14.7652 7.96285 13.7524 8.816 12.8993C9.66914 12.0461 10.682 11.3694 11.7966 10.9077C12.9113 10.4459 14.1061 10.2083 15.3126 10.2083C16.5191 10.2083 17.7138 10.4459 18.8285 10.9077C19.9432 11.3694 20.956 12.0461 21.8092 12.8993L24.5001 15.5902L27.191 12.8993C28.914 11.1763 31.2509 10.2083 33.6876 10.2083C36.1243 10.2083 38.4612 11.1763 40.1842 12.8993C41.9072 14.6223 42.8751 16.9592 42.8751 19.3959C42.8751 21.8326 41.9072 24.1694 40.1842 25.8924L24.5001 41.5765L8.816 25.8924C7.96285 25.0393 7.28609 24.0265 6.82437 22.9118C6.36265 21.7971 6.125 20.6024 6.125 19.3959C6.125 18.1893 6.36265 16.9946 6.82437 15.8799Z"
+              stroke="#7C6A0A"
+              stroke-width="4.08333"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <img src="../assets/images/kit-cuidado-item.jpg" />
+          <div>
+            <h3>Kit de viaje</h3>
+            <p>
+              Incluye peine y cepillo de bambú, jabón orgánico de eucalipto y
+              shampoo tamaño de viaje.
+            </p>
+          </div>
+        </div>
+        <div class="section-salud__items-container__item">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 49 49"
+            fill="none"
+          >
+            <path
+              d="M6.82437 15.8799C7.28609 14.7652 7.96285 13.7524 8.816 12.8993C9.66914 12.0461 10.682 11.3694 11.7966 10.9077C12.9113 10.4459 14.1061 10.2083 15.3126 10.2083C16.5191 10.2083 17.7138 10.4459 18.8285 10.9077C19.9432 11.3694 20.956 12.0461 21.8092 12.8993L24.5001 15.5902L27.191 12.8993C28.914 11.1763 31.2509 10.2083 33.6876 10.2083C36.1243 10.2083 38.4612 11.1763 40.1842 12.8993C41.9072 14.6223 42.8751 16.9592 42.8751 19.3959C42.8751 21.8326 41.9072 24.1694 40.1842 25.8924L24.5001 41.5765L8.816 25.8924C7.96285 25.0393 7.28609 24.0265 6.82437 22.9118C6.36265 21.7971 6.125 20.6024 6.125 19.3959C6.125 18.1893 6.36265 16.9946 6.82437 15.8799Z"
+              stroke="#7C6A0A"
+              stroke-width="4.08333"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <img src="../assets/images/jabon-cuidado-item.jpg" />
+          <div>
+            <h3>Set de jabones</h3>
+            <p>Paquete de 2 unidades jabón de carbón activado con coco.</p>
+          </div>
+        </div>
+        <div class="section-salud__items-container__item">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 49 49"
+            fill="none"
+          >
+            <path
+              d="M6.82437 15.8799C7.28609 14.7652 7.96285 13.7524 8.816 12.8993C9.66914 12.0461 10.682 11.3694 11.7966 10.9077C12.9113 10.4459 14.1061 10.2083 15.3126 10.2083C16.5191 10.2083 17.7138 10.4459 18.8285 10.9077C19.9432 11.3694 20.956 12.0461 21.8092 12.8993L24.5001 15.5902L27.191 12.8993C28.914 11.1763 31.2509 10.2083 33.6876 10.2083C36.1243 10.2083 38.4612 11.1763 40.1842 12.8993C41.9072 14.6223 42.8751 16.9592 42.8751 19.3959C42.8751 21.8326 41.9072 24.1694 40.1842 25.8924L24.5001 41.5765L8.816 25.8924C7.96285 25.0393 7.28609 24.0265 6.82437 22.9118C6.36265 21.7971 6.125 20.6024 6.125 19.3959C6.125 18.1893 6.36265 16.9946 6.82437 15.8799Z"
+              stroke="#7C6A0A"
+              stroke-width="4.08333"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <img src="../assets/images/skincare-cuidado-item.jpg" />
+          <div>
+            <h3>Kit de skincare</h3>
+            <p>Incluye 2 rodillos y una gua sha.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-hogar">
+      <h2 class="section-hogar__titulo">Decoración del hogar</h2>
+      <div class="section-hogar__items-container">
+        <div class="section-hogar__items-container__item">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 49 49"
+            fill="none"
+          >
+            <path
+              d="M6.82437 15.8799C7.28609 14.7652 7.96285 13.7524 8.816 12.8993C9.66914 12.0461 10.682 11.3694 11.7966 10.9077C12.9113 10.4459 14.1061 10.2083 15.3126 10.2083C16.5191 10.2083 17.7138 10.4459 18.8285 10.9077C19.9432 11.3694 20.956 12.0461 21.8092 12.8993L24.5001 15.5902L27.191 12.8993C28.914 11.1763 31.2509 10.2083 33.6876 10.2083C36.1243 10.2083 38.4612 11.1763 40.1842 12.8993C41.9072 14.6223 42.8751 16.9592 42.8751 19.3959C42.8751 21.8326 41.9072 24.1694 40.1842 25.8924L24.5001 41.5765L8.816 25.8924C7.96285 25.0393 7.28609 24.0265 6.82437 22.9118C6.36265 21.7971 6.125 20.6024 6.125 19.3959C6.125 18.1893 6.36265 16.9946 6.82437 15.8799Z"
+              stroke="#7C6A0A"
+              stroke-width="4.08333"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <img src="../assets/images/silla-decoracion-item.jpg" />
+          <div>
+            <h3>Silla de bambú</h3>
+            <p>Disponible en 2 colores: blanco y negro, acabado de bambú.</p>
+          </div>
+        </div>
+        <div class="section-hogar__items-container__item">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 49 49"
+            fill="none"
+          >
+            <path
+              d="M6.82437 15.8799C7.28609 14.7652 7.96285 13.7524 8.816 12.8993C9.66914 12.0461 10.682 11.3694 11.7966 10.9077C12.9113 10.4459 14.1061 10.2083 15.3126 10.2083C16.5191 10.2083 17.7138 10.4459 18.8285 10.9077C19.9432 11.3694 20.956 12.0461 21.8092 12.8993L24.5001 15.5902L27.191 12.8993C28.914 11.1763 31.2509 10.2083 33.6876 10.2083C36.1243 10.2083 38.4612 11.1763 40.1842 12.8993C41.9072 14.6223 42.8751 16.9592 42.8751 19.3959C42.8751 21.8326 41.9072 24.1694 40.1842 25.8924L24.5001 41.5765L8.816 25.8924C7.96285 25.0393 7.28609 24.0265 6.82437 22.9118C6.36265 21.7971 6.125 20.6024 6.125 19.3959C6.125 18.1893 6.36265 16.9946 6.82437 15.8799Z"
+              stroke="#7C6A0A"
+              stroke-width="4.08333"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <img src="../assets/images/banco-decoracion-item.jpg" />
+          <div>
+            <h3>Banco pequeño</h3>
+            <p>Ideal para agregar un toque de estilo a tus espacios</p>
+          </div>
+        </div>
+        <div class="section-hogar__items-container__item">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 49 49"
+            fill="none"
+          >
+            <path
+              d="M6.82437 15.8799C7.28609 14.7652 7.96285 13.7524 8.816 12.8993C9.66914 12.0461 10.682 11.3694 11.7966 10.9077C12.9113 10.4459 14.1061 10.2083 15.3126 10.2083C16.5191 10.2083 17.7138 10.4459 18.8285 10.9077C19.9432 11.3694 20.956 12.0461 21.8092 12.8993L24.5001 15.5902L27.191 12.8993C28.914 11.1763 31.2509 10.2083 33.6876 10.2083C36.1243 10.2083 38.4612 11.1763 40.1842 12.8993C41.9072 14.6223 42.8751 16.9592 42.8751 19.3959C42.8751 21.8326 41.9072 24.1694 40.1842 25.8924L24.5001 41.5765L8.816 25.8924C7.96285 25.0393 7.28609 24.0265 6.82437 22.9118C6.36265 21.7971 6.125 20.6024 6.125 19.3959C6.125 18.1893 6.36265 16.9946 6.82437 15.8799Z"
+              stroke="#7C6A0A"
+              stroke-width="4.08333"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <img src="../assets/images/buro-decoracion-item.jpg" />
+          <div>
+            <h3>Buró</h3>
+            <p>
+              Elaborado con bambú, cuenta con 2 compartimeientos para guardar
+              cosas
+            </p>
+          </div>
+        </div>
+        <div class="section-hogar__items-container__item">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 49 49"
+            fill="none"
+          >
+            <path
+              d="M6.82437 15.8799C7.28609 14.7652 7.96285 13.7524 8.816 12.8993C9.66914 12.0461 10.682 11.3694 11.7966 10.9077C12.9113 10.4459 14.1061 10.2083 15.3126 10.2083C16.5191 10.2083 17.7138 10.4459 18.8285 10.9077C19.9432 11.3694 20.956 12.0461 21.8092 12.8993L24.5001 15.5902L27.191 12.8993C28.914 11.1763 31.2509 10.2083 33.6876 10.2083C36.1243 10.2083 38.4612 11.1763 40.1842 12.8993C41.9072 14.6223 42.8751 16.9592 42.8751 19.3959C42.8751 21.8326 41.9072 24.1694 40.1842 25.8924L24.5001 41.5765L8.816 25.8924C7.96285 25.0393 7.28609 24.0265 6.82437 22.9118C6.36265 21.7971 6.125 20.6024 6.125 19.3959C6.125 18.1893 6.36265 16.9946 6.82437 15.8799Z"
+              stroke="#7C6A0A"
+              stroke-width="4.08333"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <img src="../assets/images/mesa-decoracion-item.jpg" />
+          <div>
+            <h3>Mesita decortiva</h3>
+            <p>Paquete de 2 unidades hecho 100% de materiales ecológicos.</p>
+          </div>
+        </div>
+        <div class="section-hogar__items-container__item">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 49 49"
+            fill="none"
+          >
+            <path
+              d="M6.82437 15.8799C7.28609 14.7652 7.96285 13.7524 8.816 12.8993C9.66914 12.0461 10.682 11.3694 11.7966 10.9077C12.9113 10.4459 14.1061 10.2083 15.3126 10.2083C16.5191 10.2083 17.7138 10.4459 18.8285 10.9077C19.9432 11.3694 20.956 12.0461 21.8092 12.8993L24.5001 15.5902L27.191 12.8993C28.914 11.1763 31.2509 10.2083 33.6876 10.2083C36.1243 10.2083 38.4612 11.1763 40.1842 12.8993C41.9072 14.6223 42.8751 16.9592 42.8751 19.3959C42.8751 21.8326 41.9072 24.1694 40.1842 25.8924L24.5001 41.5765L8.816 25.8924C7.96285 25.0393 7.28609 24.0265 6.82437 22.9118C6.36265 21.7971 6.125 20.6024 6.125 19.3959C6.125 18.1893 6.36265 16.9946 6.82437 15.8799Z"
+              stroke="#7C6A0A"
+              stroke-width="4.08333"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <img src="../assets/images/cajonera-decoracion-item.jpg" />
+          <div>
+            <h3>Cajonera</h3>
+            <p>Paquete de 2 unidades hecho 100% de materiales ecológicos.</p>
+          </div>
+        </div>
+        <div class="section-hogar__items-container__item">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 49 49"
+            fill="none"
+          >
+            <path
+              d="M6.82437 15.8799C7.28609 14.7652 7.96285 13.7524 8.816 12.8993C9.66914 12.0461 10.682 11.3694 11.7966 10.9077C12.9113 10.4459 14.1061 10.2083 15.3126 10.2083C16.5191 10.2083 17.7138 10.4459 18.8285 10.9077C19.9432 11.3694 20.956 12.0461 21.8092 12.8993L24.5001 15.5902L27.191 12.8993C28.914 11.1763 31.2509 10.2083 33.6876 10.2083C36.1243 10.2083 38.4612 11.1763 40.1842 12.8993C41.9072 14.6223 42.8751 16.9592 42.8751 19.3959C42.8751 21.8326 41.9072 24.1694 40.1842 25.8924L24.5001 41.5765L8.816 25.8924C7.96285 25.0393 7.28609 24.0265 6.82437 22.9118C6.36265 21.7971 6.125 20.6024 6.125 19.3959C6.125 18.1893 6.36265 16.9946 6.82437 15.8799Z"
+              stroke="#7C6A0A"
+              stroke-width="4.08333"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <img src="../assets/images/lampara-decoracion-item.jpg" />
+          <div>
+            <h3>Lámpara de bambú</h3>
+            <p>Paquete de 2 unidades hecho 100% de materiales ecológicos.</p>
+          </div>
+        </div>
+
+        <div class="section-hogar__items-container__item">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 49 49"
+            fill="none"
+          >
+            <path
+              d="M6.82437 15.8799C7.28609 14.7652 7.96285 13.7524 8.816 12.8993C9.66914 12.0461 10.682 11.3694 11.7966 10.9077C12.9113 10.4459 14.1061 10.2083 15.3126 10.2083C16.5191 10.2083 17.7138 10.4459 18.8285 10.9077C19.9432 11.3694 20.956 12.0461 21.8092 12.8993L24.5001 15.5902L27.191 12.8993C28.914 11.1763 31.2509 10.2083 33.6876 10.2083C36.1243 10.2083 38.4612 11.1763 40.1842 12.8993C41.9072 14.6223 42.8751 16.9592 42.8751 19.3959C42.8751 21.8326 41.9072 24.1694 40.1842 25.8924L24.5001 41.5765L8.816 25.8924C7.96285 25.0393 7.28609 24.0265 6.82437 22.9118C6.36265 21.7971 6.125 20.6024 6.125 19.3959C6.125 18.1893 6.36265 16.9946 6.82437 15.8799Z"
+              stroke="#7C6A0A"
+              stroke-width="4.08333"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <img src="../assets/images/espejo-decoracion-item.jpg" />
+          <div>
+            <h3>Espejo de pared</h3>
+            <p>Un espejo para ver tu bello rostro</p>
+          </div>
+        </div>
+        <div class="section-hogar__items-container__item">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 49 49"
+            fill="none"
+          >
+            <path
+              d="M6.82437 15.8799C7.28609 14.7652 7.96285 13.7524 8.816 12.8993C9.66914 12.0461 10.682 11.3694 11.7966 10.9077C12.9113 10.4459 14.1061 10.2083 15.3126 10.2083C16.5191 10.2083 17.7138 10.4459 18.8285 10.9077C19.9432 11.3694 20.956 12.0461 21.8092 12.8993L24.5001 15.5902L27.191 12.8993C28.914 11.1763 31.2509 10.2083 33.6876 10.2083C36.1243 10.2083 38.4612 11.1763 40.1842 12.8993C41.9072 14.6223 42.8751 16.9592 42.8751 19.3959C42.8751 21.8326 41.9072 24.1694 40.1842 25.8924L24.5001 41.5765L8.816 25.8924C7.96285 25.0393 7.28609 24.0265 6.82437 22.9118C6.36265 21.7971 6.125 20.6024 6.125 19.3959C6.125 18.1893 6.36265 16.9946 6.82437 15.8799Z"
+              stroke="#7C6A0A"
+              stroke-width="4.08333"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <img src="../assets/images/mesa-2-decoracion-item.jpg" />
+          <div>
+            <h3>Mesa de desayuno</h3>
+            <p>Una mesita muy ecológica y muy épica</p>
+          </div>
+        </div>
+        <div class="section-hogar__items-container__item">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 49 49"
+            fill="none"
+          >
+            <path
+              d="M6.82437 15.8799C7.28609 14.7652 7.96285 13.7524 8.816 12.8993C9.66914 12.0461 10.682 11.3694 11.7966 10.9077C12.9113 10.4459 14.1061 10.2083 15.3126 10.2083C16.5191 10.2083 17.7138 10.4459 18.8285 10.9077C19.9432 11.3694 20.956 12.0461 21.8092 12.8993L24.5001 15.5902L27.191 12.8993C28.914 11.1763 31.2509 10.2083 33.6876 10.2083C36.1243 10.2083 38.4612 11.1763 40.1842 12.8993C41.9072 14.6223 42.8751 16.9592 42.8751 19.3959C42.8751 21.8326 41.9072 24.1694 40.1842 25.8924L24.5001 41.5765L8.816 25.8924C7.96285 25.0393 7.28609 24.0265 6.82437 22.9118C6.36265 21.7971 6.125 20.6024 6.125 19.3959C6.125 18.1893 6.36265 16.9946 6.82437 15.8799Z"
+              stroke="#7C6A0A"
+              stroke-width="4.08333"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <img src="../assets/images/mesa-3-decoracion-item.jpg" />
+          <div>
+            <h3>Mesa de desayuno</h3>
+            <p>Una mesita muy ecológica y muy épica</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-nosotros">
+      <h2>¿Por qué nosotros?</h2>
+      <div class="section-nosotros__items">
+        <div class="section-nosotros__mundito">
+          <img src="../assets/icons/mundito-logo.svg" />
+          <p>
+            Compromiso con el medio ambiente garantizando el uso de materiales
+            100% reciclables.
+          </p>
+        </div>
+        <div class="section-nosotros__foquito">
+          <img src="../assets/icons/bombilla-logo.svg" />
+          <p>Innovando con estilo el diseño de nuestros muebles es único.</p>
+        </div>
+      </div>
+    </section>
+    <section class="section-galeria">
+      <h2>Galería de estilos</h2>
+      <div class="section-galeria__items">
+        <img src="../assets/images/galeria-1.jpg" />
+        <img src="../assets/images/galeria-2.jpg" />
+        <img src="../assets/images/galeria-3.jpg" />
+      </div>
+    </section>
+    <section class="section-mapa">
+      <h2>Encuentranos en</h2>
+      <div class="section-mapa__img">
+        <img src="../assets/images/mapa.png">
+      </div>
+      <div class="section-mapa__info">
+        <h3>Centro Mayor Centro Comercial</h3>
+        <p>Cl. 38A Sur #34d-51, Bogotá, Colombia</p>
+      </div>
+    </section>
+    <footer>
+    </footer>
+  </body>
+</html>
